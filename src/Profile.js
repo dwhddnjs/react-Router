@@ -10,6 +10,10 @@ const profileData = {
     name: "호머 심슨",
     description: "심슨에 나오는 아빠 역할",
   },
+  per1215: {
+    name: 'jongwon lee',
+    description: '영어 이름 소개'
+  }
 };
 
 export default function Profile({ match }) {
