@@ -11,9 +11,9 @@ const profileData = {
     description: "심슨에 나오는 아빠 역할",
   },
   per1215: {
-    name: 'jongwon lee',
-    description: '영어 이름 소개'
-  }
+    name: "jongwon lee",
+    description: "영어 이름 소개",
+  },
 };
 
 export default function Profile({ match }) {
@@ -23,6 +23,7 @@ export default function Profile({ match }) {
   if (!profile) {
     return <div>존재하지 않는 사용자입니다</div>;
   }
+
   return (
     <div>
       <h3>
