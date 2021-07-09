@@ -1,8 +1,8 @@
 import React from "react";
 
 const profileData = {
-  dwhddnjs: {
-    name: "이종원",
+  jongwon: {
+    name: "dwhddnjs",
     description: "Frontend Engineer",
   },
 
@@ -17,6 +17,7 @@ const profileData = {
 };
 
 export default function Profile({ match }) {
+  console.log(match);
   const { username } = match.params;
   const profile = profileData[username];
 
