@@ -1,8 +1,8 @@
 import React from "react";
 
 const profileData = {
-  jongwon: {
-    name: "dwhddnjs",
+  dwhddnjs: {
+    name: "이종원",
     description: "Frontend Engineer",
   },
 
