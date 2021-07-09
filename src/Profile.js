@@ -28,7 +28,7 @@ export default function Profile({ match }) {
   return (
     <div>
       <h3>
-        {username}({profile.name})
+        {username} ({profile.name})
       </h3>
       <p>{profile.description}</p>
     </div>
