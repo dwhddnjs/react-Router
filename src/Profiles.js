@@ -1,6 +1,6 @@
 import React from "react";
 import Profile from "./Profile";
-import { Link, Route } from "react-router-dom";
+import { NavLink, Route } from "react-router-dom";
 
 export default function Profiles() {
   return (
@@ -8,13 +8,28 @@ export default function Profiles() {
       <h3>사용자 목록</h3>
       <ul>
         <li>
-          <Link to="/profiles/dwhddnjs">dwhddnjs</Link>
+          <NavLink
+            to="/profiles/dwhddnjs"
+            activeStyle={{ background: "black", color: "white" }}
+          >
+            dwhddnjs
+          </NavLink>
         </li>
         <li>
-          <Link to="/profiles/homer">homer</Link>
+          <NavLink
+            to="/profiles/homer"
+            activeStyle={{ background: "black", color: "white" }}
+          >
+            homer
+          </NavLink>
         </li>
         <li>
-          <Link to="/profiles/per1215">per1215</Link>
+          <NavLink
+            to="/profiles/per1215"
+            activeStyle={{ background: "black", color: "white" }}
+          >
+            per1215
+          </NavLink>
         </li>
       </ul>
 
